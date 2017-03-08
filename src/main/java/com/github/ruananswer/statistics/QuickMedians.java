@@ -47,9 +47,9 @@ public class QuickMedians {
         while (l < r) {
             idx = partition(l, r);
             len = idx - l + 1;
-            if (len == k)
-                return values[k];
-            else if (len < k) {
+            if (len == k + 1)
+                return values[idx];
+            else if (len < k + 1) {
                 k = k - len;
                 l = idx + 1;
             }
