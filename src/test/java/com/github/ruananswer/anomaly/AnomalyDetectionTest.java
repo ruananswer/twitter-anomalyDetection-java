@@ -18,7 +18,7 @@ import java.util.List;
 public class AnomalyDetectionTest {
     private ArrayList<String> fileStlNames = new ArrayList<String>();
     private ArrayList<String> fileAnomsNames = new ArrayList<String>();
-    private static final double EqualPercent = 0.8;
+    private static final double EqualPercent = 0.95;
 
     @BeforeClass
     public void readTestSets() {
@@ -88,7 +88,7 @@ public class AnomalyDetectionTest {
         DetectAnoms.Config config = new DetectAnoms.Config();
         config.setMaxAnoms(maxAnoms);
         config.setNumObsPerPeriod(seasonality);
-        config.setAnomsThreshold(1.15);
+        config.setAnomsThreshold(1.0);
         config.setAlpha(alpha);
         DetectAnoms detectAnoms = new DetectAnoms(config);
 
