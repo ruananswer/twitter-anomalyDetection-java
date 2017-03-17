@@ -1,4 +1,4 @@
-twitter-anomalyDetection-java
+Twitter-anomalyDetection-java
 =============================
 
 A Java implementation of [twitter anomaly detection](https://github.com/twitter/AnomalyDetection).
@@ -20,4 +20,5 @@ More
  - use R stl decompose as stl test benchmark.
  - use R twitter anomaly detection as anomaly detection test benchmark
  - this lib performs as well as twitter. And it can even find the anomalies those could not be detected by Twitter-anomalyDetection!
-for more information please read code, the ReadMe will update later!
+ 
+For more information please read code, the ReadMe will update later!
