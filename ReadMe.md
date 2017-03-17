@@ -17,8 +17,8 @@ More
 - STL-java reference (https://github.com/brandtg/stl-java), but we implements the stl in java as [stlplus](https://github.com/hafen/stlplus) described, faster and can handle NA values (some data used stl-java will throw some exception).
 - Twitter-anomalyDetection (https://github.com/twitter/AnomalyDetection), we optimize the algorithm from o(n^2) to o(nlogn)
 - STL Test and Anomaly Detection Test is from (https://anomaly.io/anomaly-detection-twitter-r/):
- - use R stl decompose as stl test benchmark.
- - use R twitter anomaly detection as anomaly detection test benchmark
- - this lib performs as well as twitter. And it can even find the anomalies those could not be detected by Twitter-anomalyDetection!
+	- use R stl decompose as stl test benchmark.
+	- use R twitter anomaly detection as anomaly detection test benchmark
+	- this lib performs as well as twitter. And it can even find the anomalies those could not be detected by Twitter-anomalyDetection!
  
 For more information please read code, the ReadMe will update later!
