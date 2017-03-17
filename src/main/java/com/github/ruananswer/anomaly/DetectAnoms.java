@@ -1,8 +1,10 @@
-package com.github.ruananswer.stl;
+package com.github.ruananswer.anomaly;
 
 
 import com.github.ruananswer.statistics.OnlineNormalStatistics;
 import com.github.ruananswer.statistics.QuickMedians;
+import com.github.ruananswer.stl.STLDecomposition;
+import com.github.ruananswer.stl.STLResult;
 import org.apache.commons.math3.distribution.TDistribution;
 
 import java.util.ArrayList;
